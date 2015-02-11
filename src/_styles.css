@@ -1,0 +1,57 @@
+/*
+
+  STYLES
+
+  Add custom styles here.
+
+*/
+
+
+  @media (min-width: 600px) {
+#hoverhax:hover:after{
+  content:  attr(data);
+  background: white;
+  position: absolute;
+  color: black;
+  padding-left: 2px 4px;
+  font-size: 3.5rem;
+  display: flex;
+  left: 50%;
+  width: 300px;
+}
+}
+
+  @media (min-width: 600px) {
+.members-list-hax li:hover:after{
+  content:  attr(data);
+  background: white;
+  position: absolute;
+  color: black;
+  padding-left: 2px 4px;
+  font-size: 1rem;
+  display: flex;
+  left: 60%;
+  width: 500px;
+  margin-top: -3rem;
+}
+}
+
+.members-list-hax li a {
+	text-decoration: none;
+	color: #272822;
+}
+
+p {
+	background: #000;
+	color: #fff;
+	/*display: inline;*/
+}
+
+
+.tnr {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.josh-cave {
+	background-image: url('../josh-cave-hacking.jpg');
+}
