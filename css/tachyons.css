@@ -7818,8 +7818,8 @@ img {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    left: 60%;
-    width: 500px;
+    left: 50%;
+    width: 50%;
     margin-top: -3rem;
   }
 }
@@ -7827,6 +7827,19 @@ img {
 .members-list-hax li a {
   text-decoration: none;
   color: #272822;
+  background: #f9f9f9;
+  color: #444;
+  border: 4px solid #f1f1f1;
+  padding: .5rem;
+  transition: padding .4s ease-out;
+  transition-delay: .1s;
+}
+
+.members-list-hax li a:hover {
+  background: #f9f9f9;
+  border: 4px solid #f1f1f1;
+  padding: .75rem;
+  transition: padding .2s ease-in;
 }
 
 p {
